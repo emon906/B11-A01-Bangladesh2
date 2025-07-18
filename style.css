@@ -151,6 +151,7 @@
 /* recent news start */
 .r-content{
     font-family: "Fira Sans", sans-serif;
+    margin-bottom: 32px;
 }
 .r-content h2{
     font-size: 40px;
@@ -165,3 +166,61 @@
     line-height: 24px;
 }
 /* recent news end */
+/* satelite start */
+.satelite-1{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    background: #FFF;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+}
+.s-img{
+     width: 408px;
+}
+.s-img img{
+     width: 100%;
+     border-radius: 24px;
+}
+.s-content{
+     font-family: "Fira Sans", sans-serif;
+}
+.s-content h2{
+     font-size: 32px;
+     font-weight: 700;
+     color: rgba(14, 14, 14, 0.80);
+     margin-bottom: 12px;
+}
+.s-content img{
+     margin-bottom: 12px;
+}
+.s-content h5{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: rgba(14, 14, 14, 0.70);
+     gap: 12px;
+     margin-bottom: 12px;
+}
+.s-content p{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: rgba(14, 14, 14, 0.70);
+     margin-bottom: 32px;
+}
+.s-content a{
+     text-decoration: none;
+     background: #006A50;
+     color: white;
+     font-size: 18px;
+     font-weight: 600;
+     padding: 13px 26px;
+     border-radius: 8px;
+}
+.s-content span{
+    gap: 12px;
+}
+
+/* satelite end */
