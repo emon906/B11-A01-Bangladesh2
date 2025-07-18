@@ -1,3 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner start */
+.banner{
+   background: #C6E4D6;
+   display: flex;
+   justify-content: center;
+   font-family: "Fira Sans", sans-serif;
+   align-items: center;
+   gap: 64px;
+   padding: 80px 100px;
+   margin-bottom: 80px;
+}
+.b-content{
+   
+}
+.b-content h3{
+   font-size: 24px;
+   font-weight: 500;
+   color: rgba(14, 14, 14, 0.50);
+   margin-bottom: 16px;
+}
+.b-content h2{
+   color: #0E0E0E;
+   font-size: 56px;
+   font-weight: 700;
+   margin-bottom: 24px;
+}
+.b-content a{
+   text-decoration: none;
+   border-radius: 8px;
+   background: #006A50;
+   padding: 17px 32px;
+   color: white;
+}
+/* banner end */
 /* future start */
 .f-content{
     font-family: "Fira Sans", sans-serif;
