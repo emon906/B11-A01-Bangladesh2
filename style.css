@@ -1,0 +1,111 @@
+/* future start */
+.f-content{
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 32px;
+}
+.f-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.f-content p{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.future{
+    font-family: "Fira Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 20px;
+}
+.f-box1{
+    background: rgba(84, 144, 245, 0.20);
+    padding: 32px;
+    border-radius: 16px;
+}
+.f-box1 img{
+    margin-bottom: 24px;
+}
+.f-box1 h3{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.f-box1 p{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 24px;
+
+}
+.f-box1 a{
+    text-decoration: none;
+    border-radius: 8px;
+    background: #5490F5;
+    color: white;
+    padding: 11px 20px;
+}
+.f-box2{
+    padding: 32px;
+    border-radius: 16px;
+    background: #C6E4D6;
+}
+.f-box2 img{
+    margin-bottom: 24px;
+}
+.f-box2 h3{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.f-box2 p{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 32px;
+}
+.f-box2 a{
+    text-decoration: none;
+    border-radius: 8px;
+    background: #09A15C;
+    color: white;
+    padding: 11px 20px;
+    
+}
+.f-box3{
+    background: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+
+}
+.f-box3 img{
+    margin-bottom: 24px;
+}
+.f-box3 h3{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.f-box3 p{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 32px;
+}
+.f-box3 a{
+    text-decoration: none;
+    border-radius: 8px;
+    background: #FFC239;
+    color: white;
+    padding: 11px 20px;
+}
+/* future end */
