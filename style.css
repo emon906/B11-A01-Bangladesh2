@@ -58,6 +58,7 @@
     justify-content: center;
     gap: 24px;
     margin-left: 20px;
+    margin-bottom: 80px;
 }
 .f-box1{
     background: rgba(84, 144, 245, 0.20);
@@ -147,3 +148,20 @@
     padding: 11px 20px;
 }
 /* future end */
+/* recent news start */
+.r-content{
+    font-family: "Fira Sans", sans-serif;
+}
+.r-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.r-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.70);
+    line-height: 24px;
+}
+/* recent news end */
