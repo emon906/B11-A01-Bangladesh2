@@ -303,3 +303,32 @@
     font-weight: 600;
 }
 /* donate today end */
+/* footer start */
+footer{
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    padding:  50px 160px;
+    align-items: center;
+    background: #FFF;
+}
+footer h5{
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+footer hr{
+    background: rgba(14, 14, 14, 0.10);
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 32px;
+}
+.f-img{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+.f-img img{
+
+}
+/* footer end */
