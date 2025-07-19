@@ -452,6 +452,55 @@ body{
     background: #09A15C;
 }
 /* donate today end */
+/* newspaper start */
+.newspaper{
+    width: 1200px;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    margin: auto;
+    background: #C6E4D6;
+    padding: 80px 100px;
+    align-items: center;
+    border-radius: 24px;
+
+}
+.newspaper h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+.newspaper p{
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.newspaper input{
+    border-color: none;
+    padding: 18px 40px;
+    width: 600px;
+    font-family: "Fira Sans", sans-serif;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    background: #FFF;
+}
+.newspaper a{
+    text-decoration: none;
+    background: #006A50;
+    border-radius: 0px 8px 8px 0px;
+    padding: 18px 40px;
+    color: white;
+
+}
+.newspaper h5{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* newspaper end */
 /* footer start */
 footer{
     text-align: center;
@@ -459,6 +508,7 @@ footer{
     padding:  50px 160px;
     align-items: center;
     background: #FFF;
+    margin-top: 80px;
 }
 footer h5{
     margin-bottom: 32px;
