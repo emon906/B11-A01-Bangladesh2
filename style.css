@@ -8,11 +8,12 @@ body{
 /* Bangladesh 2.0 start */
 .bangladesh{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 1000px;
+    margin-left: 70px;
+    margin-right: 70px;
     font-family: "Fira Sans", sans-serif;
-    margin-bottom: 20px;
+    margin-bottom:20px;
     margin-top: 20px;
 }   
 .bangladesh h2{
@@ -25,6 +26,9 @@ body{
     padding: 15px 30px;
     border-radius: 8px;
     border: 1px solid #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
 }   
 /* Bangladesh 2.0 end */
 /* banner start */
@@ -428,10 +432,25 @@ body{
     width: 1032px;
     margin-bottom: 35px;
 }
-.d-today h5{
+.d-input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.d-input input{
+    padding: 18px 40px;
+    width: 600px;
+    font-family: "Fira Sans", sans-serif;
     color: rgba(14, 14, 14, 0.30);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
+    margin-bottom: 24px;
+    background: #FFF;
+    border: none;
+    text-align: center;
+}
+.d-input input:focus{
+    outline: none;
 }
 .d-btn{
     text-align: center;
@@ -477,7 +496,7 @@ body{
     font-weight: 400;
 }
 .newspaper input{
-    border-color: none;
+   
     padding: 18px 40px;
     width: 600px;
     font-family: "Fira Sans", sans-serif;
@@ -486,7 +505,12 @@ body{
     font-weight: 400;
     margin-bottom: 24px;
     background: #FFF;
+    border: none;
 }
+.newspaper input:focus{
+    outline: none;
+}
+
 .newspaper a{
     text-decoration: none;
     background: #006A50;
